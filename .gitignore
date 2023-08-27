@@ -1,3 +1,5 @@
 external_analysis/~$*
 output_sheets/~$*
 sheets/**/~$*
+__pycache__
+*.pyc
