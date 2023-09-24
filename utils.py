@@ -8,3 +8,14 @@ def batched(iterable, n):
     it = iter(iterable)
     while batch := tuple(islice(it, n)):
         yield batch
+
+
+def print_spaced(title, body, footer=None):
+    """
+    print with proper spacing and newlines
+    """
+    print(f"\n{title}")
+    print(body)
+    if footer:
+        print(footer)
+    print("\n")
